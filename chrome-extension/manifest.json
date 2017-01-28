@@ -1,0 +1,13 @@
+{
+	"name": "Page Title Change",
+	"version": "0.1.0",
+	"manifest_version": 2,
+	"description": "ページタイトルを一時的に変更する",
+	"permissions": [
+		"activeTab"
+	],
+	"browser_action": {
+		"default_title": "ページタイトル変更",
+		"default_popup": "popup.html"
+	}
+}
